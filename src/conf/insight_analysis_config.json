@@ -1,0 +1,90 @@
+{
+  "campaign_common_field": [
+    "campaign_id",
+    "campaign_name"
+  ],
+  "adset_common_field": [
+    "campaign_id",
+    "campaign_name",
+    "adset_id",
+    "adset_name"
+  ],
+  "ad_common_field": [
+    "campaign_id",
+    "campaign_name",
+    "adset_id",
+    "adset_name",
+    "ad_id",
+    "ad_name"
+  ],
+  "value_field": [
+    "result",
+    "spend",
+    "unique_mobile_app_actions",
+    "unique_mobile_app_start",
+    "mobile_app_actions",
+    "mobile_app_start",
+    "impressions",
+    "reach",
+    "inline_link_clicks",
+    "unique_inline_link_clicks",
+    "app_store_clicks",
+    "button_clicks",
+    "social_impressions",
+    "social_reach",
+    "page_engagement"
+  ],
+  "cal_field": {
+    "cost_per_result": {
+      "is_mean": true,
+      "multiple": 1,
+      "operand_one": "spend",
+      "operand_two": "result"
+    },
+    "cpc": {
+      "is_mean": true,
+      "multiple": 1,
+      "operand_one": "spend",
+      "operand_two": "inline_link_clicks"
+    },
+    "cpm": {
+      "is_mean": true,
+      "multiple": 1000,
+      "operand_one": "spend",
+      "operand_two": "impressions"
+    },
+    "ctr": {
+      "is_mean": true,
+      "multiple": 1,
+      "operand_one": "inline_link_clicks",
+      "operand_two": "impressions"
+    },
+    "frequency": {
+      "is_mean": false,
+      "multiple": 1,
+      "operand_one": "impressions",
+      "operand_two": "reach"
+    }
+  },
+  "insight_separator": "\t",
+  "valid_time_start": "02:00:00",
+  "timezone":{
+    "1202579213151769": "Asia/Jakarta",
+    "1227059297370427": "Asia/Hong_Kong",
+    "631702523677133": "Asia/Shanghai",
+    "1227059294037094": "Asia/Hong_Kong",
+    "781022292079598": "Europe/London",
+    "783764875138673": "Europe/London",
+    "791502277698266": "Asia/Shanghai",
+    "808991965949297": "Asia/Shanghai",
+    "821366218045205": "Asia/Hong_Kong",
+    "820315634816930": "Pacific/Honolulu",
+    "816899198491907": "Asia/Hong_Kong",
+    "783764878472006": "Europe/London",
+    "783764881805339": "Europe/London",
+    "1407990322632372": "Europe/London",
+    "793769357471558": "Asia/Shanghai",
+    "870823559766137": "Asia/Hong_Kong",
+    "1227059300703760": "Asia/Hong_Kong"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "calculate_platform": "appsflyer",
+
+  "retention_info":[
+    {
+      "start_date": "",
+      "end_date": "2017-05-31",
+      "check_type": "equal_ratio",
+      "kpi":[
+        {
+          "country": "SA",
+          "price": 0.4,
+          "threshold": [0.2, 0],
+          "coefficient": [1, -1, 0]
+        }
+      ]
+    },
+    {
+      "start_date": "2017-06-01",
+      "end_date": "2017-06-08",
+      "check_type": "equal_ratio",
+      "kpi":[
+        {
+          "country": "SA",
+          "priceThreshold": [5000],
+          "price": [0.8, 0.6],
+          "threshold": [0.2, 0],
+          "coefficient": [1, -1, 0]
+        }
+      ]
+    },
+    {
+      "start_date": "2017-06-09",
+      "end_date": "2017-06-11",
+      "check_type": "equal_ratio",
+      "kpi":[
+        {
+          "country": "SA",
+          "priceThreshold": [5000, 3000],
+          "price": [0.8, 0.7, 0.6],
+          "threshold": [0.2, 0],
+          "coefficient": [1, -1, 0]
+        }
+      ]
+    },
+    {
+      "start_date": "2017-06-12",
+      "end_date": "",
+      "check_type": "equal_ratio",
+      "kpi":[
+        {
+          "country": "SA",
+          "priceThreshold": [5000, 3000],
+          "price": [0.8, 0.7, 0.6],
+          "threshold": [0.2, 0],
+          "coefficient": [1, -1, 0]
+        },
+        {
+          "country": "PH",
+          "price": 0.15,
+          "threshold": [0.2, 0],
+          "coefficient": [1, -1, 0]
+        }
+      ]
+    }
+  ]
+}

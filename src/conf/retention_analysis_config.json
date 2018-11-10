@@ -1,0 +1,9 @@
+{
+  "retention_value_field":[
+    "result",
+    "unique_mobile_app_actions",
+    "unique_mobile_app_start",
+    "mobile_app_actions",
+    "mobile_app_start"
+  ]
+}

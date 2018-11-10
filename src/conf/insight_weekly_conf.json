@@ -1,0 +1,24 @@
+{
+  "accountId": {
+    "816899198491907" : "Yogrt-01",
+    "1407990322632372" : "topbuzz video",
+    "870823559766137" : "opera mini 01",
+    "1227059300703760" : "opera mini 360"
+  },
+  "backup":{
+    "1202579213151769" : "一笑科技",
+    "783764878472006" : "oneSmile-03",
+    "820315634816930" : "Yeecall-01",
+    "820315638150263" : "Yeecall-02"
+  },
+  "nodeType":[
+    "campaign",
+    "adset"
+  ],
+  "outputPath": "/var/www/html/eli/server/weeklyAnalysis",
+  "insightPath": "/var/www/html/eli/server/insightExporter",
+  "readStartDate": "",
+  "readEndDate": "",
+  "filterStartDate": "",
+  "filterEndDate": ""
+}

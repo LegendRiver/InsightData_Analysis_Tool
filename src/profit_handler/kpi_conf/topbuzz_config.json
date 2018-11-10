@@ -1,0 +1,19 @@
+{
+  "calculate_platform": "facebook",
+
+  "retention_info":[
+    {
+      "start_date": "2017-07-29",
+      "end_date": "",
+      "check_type": "equal_ratio",
+      "kpi":[
+        {
+          "country": "JP",
+          "price": 3.5,
+          "threshold": [0.57, 0.5],
+          "coefficient": [1, -1, 0]
+        }
+      ]
+    }
+  ]
+}

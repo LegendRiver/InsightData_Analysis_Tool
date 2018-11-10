@@ -1,0 +1,9 @@
+{
+  "sougou_android": "sougou_profit_config.json",
+  "yogrt_android": "yogrt_config.json",
+  "yogrt_ios": "yogrt_config.json",
+  "yeecall_android": "yeecall_android_config.json",
+  "yeecall_ios": "yeecall_ios_config.json",
+  "topbuzz_android": "topbuzz_config.json",
+  "topbuzz_ios": "topbuzz_config.json"
+}
